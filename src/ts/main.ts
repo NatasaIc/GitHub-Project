@@ -17,7 +17,7 @@ function createHtml(movies: IMovie[]): void {
   for (let i: number = 0; i < movies.length; i++) {
     console.log(movies[i].Title);
 
-    let title: HTMLHeadingElement = document.createElement("h3");
+    let title: HTMLHeadingElement = document.createElement("h4");
     title.innerHTML = movies[i].Title;
 
     container.appendChild(title);
